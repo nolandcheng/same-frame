@@ -14,7 +14,7 @@
 - 单向数据流：数据的传输自顶而下，对它进行修改也只会有单方面影响。
 - JSX：JavaScript 的一个类似 XML 的扩展，可以在 js 中书写 html 代码。
 - Hooks：16.8 新增的特性，优化渲染、更好的拆分和复用组件。
-- Facebook 专门团队维护
+- Facebook 专门团队维护。
 
 ### Sevlte
 
@@ -27,7 +27,7 @@
 
 **为了方便快捷，整个项目我都将采用 yarn 进行安装**
 
-同时由于我们使用 yarn 的缘故，就可以不用考虑全局安装脚手架等工具了。
+同时由于我们使用 yarn 的缘故，就可以不用考虑全局安装比如`create-react-app`等脚手架工具了（）
 
 创建我们的项目
 
@@ -36,7 +36,7 @@ yarn create react-app my-react
 yarn create svelte my-svelte
 ```
 
-可前往项目查看：
+启动命令很简单，可前往项目查看：
 
 - [my-react](my-react/README.md)
 - [my-svelte](my-svelte/README.md)
@@ -45,6 +45,8 @@ yarn create svelte my-svelte
 
 项目异同：
 
-1. 二者皆是安装的最简单的 demo 项目,不带有任何多余的框架，开箱即用
-2. React 项目脚手架是基于 webpack 配置的，而 Svelte 则是基于 vite 配置的
-3. React 项目自带 node_modules，Svelte 需要手动安装依赖
+1. 二者皆是安装的最简单的 demo 项目,不带有任何多余的框架，开箱即用。
+2. React 项目是基于 webpack 配置的，而 Svelte 则是基于 vite 配置的。
+3. 与 Vue 项目大同小异，不过多赘述。
+
+## 3. 数据
