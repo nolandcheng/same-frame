@@ -32,8 +32,12 @@
 创建我们的项目
 
 ```sql
-yarn create react-app my-react
-yarn create svelte my-svelte
+// React:
+1.yarn create react-app my-react
+2.yarn install
+
+// Svelte:
+1.yarn create svelte my-svelte
 ```
 
 启动命令很简单，创建后可前往项目查看：
@@ -49,7 +53,9 @@ yarn create svelte my-svelte
 2. React 项目是基于 webpack 配置的，而 Svelte 则是基于 vite 配置的。
 3. 项目内文件与 Vue 项目大同小异，这里不过多赘述。
 
-## 3. 组件
+## 3. 路由
+
+## 4. 组件
 
 对于 React 和 Svelte，组件是它们的核心概念之一，是构建用户界面的基础。
 
@@ -63,8 +69,6 @@ JSX 语法需要遵循 3 个规则：
 2. 标签闭合
 3. 属性采用驼峰命名
 
-在文本和属性中，使用大括号`{}`来表示 JS 变量，使用双大括号`{{}}`来表示 CSS 和对象
+在文本和属性中，使用大括号`{}`来表示 JS 变量，使用双大括号`{{}}`来表示 CSS 和对象，这是一个项目自带的含有 JSX 的 JS 文件：[app.js](my-react/src/App.js)
 
-一个项目自带的含有 JSX 的 JS 文件：[app.js](my-react/src/App.js)
-
-但在实际开发中，太多的导入导出不免有些繁琐，我们需要更简洁的方案：一个以.jsx 结尾的文件
+但在实际开发中，太多的导入导出不免有些繁琐，Vue 有提供专门的单文件组件`.vue`，React 我们也需要更简洁的方案：一个以.jsx 结尾的文件
