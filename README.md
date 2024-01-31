@@ -6,4 +6,5 @@
 
 ## [1.Svelte And Solid](svelte-and-solid/README.md)
 
-**无虚拟 DOM** 的 JS 新秀、更快的性能。遵循流行前端的相关理念，Svelte 更像 Vue，Solid 更像 React
+**无虚拟 DOM** 的 JS 新秀、更快的性能。
+遵循流行前端的相关理念，Svelte 更像 Vue，Solid 更像 React
